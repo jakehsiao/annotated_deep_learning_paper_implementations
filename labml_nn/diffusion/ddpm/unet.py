@@ -26,6 +26,7 @@ from typing import Optional, Tuple, Union, List
 
 import torch
 from torch import nn
+import torch.nn.functional as F
 
 from labml_helpers.module import Module
 
